@@ -1,0 +1,203 @@
+/* custom.css */
+
+body{
+    margin:0;
+    width:100%;
+    background-color: #7BDBBE;
+    
+}
+
+img{
+    max-width: 100%;
+}
+
+#home{
+/*    max-width: 100%;*/
+/*    min-height:120px;*/
+    border: 4px dotted #FBBD82;
+    text-align: center;
+/*    padding-top: 10px;*/
+    background-color: #F8E0A2 ;
+    margin: 0 auto;
+    margin-top: 15px;
+    width:1000px;
+    
+/*    position:fixed;*/
+}
+
+#title{
+    font-size: 90px; 
+font-family: money;
+    color: #4FCCAD;
+    text-shadow: 2px 2px 2px #888888;
+/*margin:10px;*/
+    
+}
+/*NAV*/
+
+nav{
+     max-width: 100%;
+   min-height: 100px;
+    background-color: #F8E0A2 ;
+     border: 4px dotted #FBBD82;
+    
+}
+
+/*#navText{*/
+/*
+    font-size: 15px; 
+font-family: money;
+    color: #4FCCAD;
+    text-shadow: 2px 2px 2px #888888;
+    text-align: right;
+    margin-left: 5px;
+}
+*/
+
+.list{
+   
+    flex: 1 0 320px;
+/*    max-width: 100%;    */
+    
+}
+
+ul{
+    list-style:none;
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-end;
+/*    margin-top:10px;*/
+    font-size:20px;
+    
+    
+    
+}
+
+.button{
+/*    border:1px solid black;*/
+    border-radius: 10px;
+    width:35px;
+    height:30px;
+    text-align: center;
+    color:#DBE1D1;
+    text-shadow: 2px 2px 2px #888888;
+    padding-top: 5px;
+    margin:10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #888888;
+    background-color: #CCF1D3;
+    
+}
+
+ul li:hover{
+     transform: scale(1.1);
+    box-shadow: 0 0 1px rgba(0,0,0,0);
+}
+
+#arrowOne{
+    width: 0; 
+	height: 0; 
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent; 
+	
+	border-right:30px solid #CCF1D3; 
+    border-radius: 10px;
+     
+    
+}
+
+#arrowTwo{
+  width: 0; 
+	height: 0; 
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent;
+	
+	border-left: 30px solid #CCF1D3;
+    border-radius: 10px;
+    
+}
+
+/*TEXT*/
+
+.text{
+    text-align: center;
+}
+
+#subTitle{
+    font-family: math;
+    font-size:50px;
+    color: #52AAB5;
+    margin-top: 20px;
+    
+}
+
+#jeanText, #barText, #meterText, #sweaterText, #netflixText{
+    font-size: 50px;
+}
+
+
+
+/*CONTENT*/
+
+.content{
+    margin: 0 auto;
+    width:1000px;
+    border: 4px dotted #F8E0A2;
+    margin-top:10px;
+    margin-bottom: 10px;
+    background-color:  #E3F7DD;
+    font-family: math;
+    color:#FBBD82;
+}
+
+
+/*PAGE ONE*/
+
+.pic{
+   display:inline-block;
+    margin-left: 45px;
+    margin-right: 45px;
+    
+}
+
+.DOW{
+    margin:60px;
+    font-size: 35px;
+   
+}
+
+#jeans{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+
+/*PAGE TWO*/
+#bar{
+  width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*PAGE THREE*/
+#meter{
+  width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+/*PAGE FOUR*/
+#sweater{
+  width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*PAGE FIVE*/
+
+#netflix{
+  width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
